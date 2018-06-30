@@ -28,3 +28,16 @@ The `view` command opens up a graphics window that displays the FSM. This
 requires the appropriate packages to be installed, depending on your system
 (see the [foma GitHub page](https://github.com/mhulden/foma/tree/master/foma
 "Foma on GitHub") for more details). 
+
+# Files
+
+There are a few different files included in this repository. Each file stands
+alone as an example implementation of finite state semantics, with a focus on a
+particular concept.
+
+- `rooth.fst` - a re-implementation of Rooth's original finite state
+  intensional semantics
+- `presupposition.fst` - an implementation of some basic presuppositions
+- `plurals.fst` - an implementation of finite state semantics with
+  presupposition that allows for the representation of plurals and plural
+  definites
